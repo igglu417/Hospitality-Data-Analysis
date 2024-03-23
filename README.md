@@ -1,7 +1,20 @@
 # Hospitality-Data-Analysis
+
+## Problem Statement
+GDS Grands owns multiple five-star hotels across India. They have been in the hospitality industry for the past 20 years. Due to strategic moves from other competitors and ineffective decision-making in management, GDS Grands are losing its market share and revenue in the luxury/business hotels category.
+As a strategic move, the managing director of GDS Grands wanted to incorporate “Business and Data Intelligence” in order to regain their market share and revenue. However, they do not have an in-house data analytics team to provide them with these insights. 
+Their revenue management team had decided to hire a 3rd party service provider to provide them insights from their historical data.
+
+## Tasks
+Mr. Analyst is the data analyst. He has been briefed about the task in the stakeholder business review meeting. Now Imagine yourself as Mr. Analyst and play the role of the new data analyst who is excited to build this dashboard and perform the following task:
+1. Create the metrics according to the metric list.
+2. Create a dashboard according to the mock-up provided by stakeholders.
+3. Create relevant insights that are not provided in the metric list/mock-up dashboard.
+
+# Dashboard
 ![image](https://github.com/igglu417/Hospitality-Data-Analysis/assets/54131004/2063667d-acf7-4797-9130-6f1baf50acb7)
 
-## DATA MODEL:
+## DATA MODEL
 ![image](https://github.com/igglu417/Hospitality-Data-Analysis/assets/54131004/1b9eb1d1-acb9-4b25-bb17-2ac9e0766198)
 
 ## STEPS AND ANALYSIS
@@ -27,7 +40,7 @@
 	6. Create measure to check how many 5 ratings are received by differernt hotels
 		Top Rated Hotels = CALCULATE(COUNTROWS(fact_bookings),fact_bookings[ratings_given] = 5)
 		
-## Major Insights:
+## Major Insights
 - Total 70.15% of bookings status are checked out, 24.83% are cancelled and remaiming are no show
 - Elite-class room has the highest share of booking with 36.78% and standard room with 28.75%
 - Top Rated hotel is GDS Blu with 9.8K 5 rating
