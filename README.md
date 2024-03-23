@@ -28,22 +28,32 @@ Mr. Analyst is the data analyst. He has been briefed about the task in the stake
 	3. Use Filled up to add dummy data to ratings_given column in fact_booking(This does not affect the current average)
 	4. Change data type of revenue holding column to currency
 4. Data Analysis & Visualization
-	1. Create measure for total realized revenue using DAX and placed on card
+	1. Create measure for **total realized revenue** using DAX and placed on card
 			Total Realized Revenue = SUM(fact_bookings[revenue_realized])
-	2. Create measure for total bookings and placed on card
+	2. Create measure for **total bookings** and placed on card
 			Total Bookings = DISTINCTCOUNT(fact_bookings[booking_id])
-	3. 	Create measure for average rating and placed on card
+	3. Create measure for **average rating** and placed on card
 			Average Rating = AVERAGE(fact_bookings[ratings_given])
-	4. Create measure for Total capacity and placed on card
+	4. Create measure for **Total capacity** and placed on card
 			Total Capacity = SUM(fact_aggregated_bookings[capacity])
-	5. Create measure for occupancy percentage and placed on card
+	5. Create measure for **occupancy percentage** and placed on card
 			Occupancy % = CALCULATE(([Total Bookings]/[Total Capacity])*100)
 	6. Total Successful Bookings = SUM(fact_aggregated_bookings[Successful_bookings])
  	7. Total Cancelled Bookings = CALCULATE(COUNTROWS(fact_bookings), fact_bookings[booking_Status] = "Cancelled")  
-	8. Create measure to check how many 5 ratings are received by differernt hotels
+	8. Create measure to check **how many 5 ratings** are received by differernt hotels
 			Top Rated Hotels = CALCULATE(COUNTROWS(fact_bookings),fact_bookings[ratings_given] = 5)
-		
+Note:
+Total successful bookings and total bokings gives similar results.
+Total cancelled bookings and cancellation ratio gives identical values.
+
 ## Major Insights
+- Total Realized revenue --> 2 Billion
+- Average Rating --> 3.61
+- Total Bookings --> 135K
+- Total Cancellations --> 33K
+- Total Capacity --> 233K
+- Cancellation Rate --> 0.25
+- Occupancy percent --> 57.87
 - Total 70.15% of bookings status are checked out, 24.83% are cancelled and remaiming are no show
 - Elite-class room has the highest share of booking with 36.78% and standard room with 28.75%
 - Top Rated hotel is GDS Blu with 9.8K 5 rating
