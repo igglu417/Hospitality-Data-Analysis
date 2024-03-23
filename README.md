@@ -62,6 +62,7 @@ Total cancelled bookings and cancellation ratio gives identical values.
 - 'Other' as the booking platform contributed most with 55K bookings
 - Luxury category had more booking than business category which is 85K
 - Weekday had more bookings than weekend with 84K bookings but weekend had more occupancy.
+- Delhi has most percentage of occupancy 60.55%	
 
 ## Recommendations		
 - Focus more on Elite and standard calss rooms. Discount and complementary breakfast can be given to attract more bookings
@@ -69,7 +70,8 @@ Total cancelled bookings and cancellation ratio gives identical values.
 - Enhance the the quality of GDS seasons and GDS Grand to increase rating
 - Focus on 'Other', 'makeyourtrip' and 'logtrip' platforms to get more bookings
 - Emphasize efforts on promoting and selling luxury category	
-- To increase bookings provide more discounts on weekends and weekdays		
+- To increase bookings provide more discounts on weekends and weekdays
+
 		
 **Project Contributors**: `Sarika Dixit`, `Ikhlas Mukhtar`
 		
