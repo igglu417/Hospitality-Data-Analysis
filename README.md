@@ -11,7 +11,7 @@ Mr. Analyst is the data analyst. He has been briefed about the task in the stake
 2. Create a dashboard according to the mock-up provided by stakeholders.
 3. Create relevant insights that are not provided in the metric list/mock-up dashboard.
    
-   Refer [Objective]([url](https://github.com/igglu417/Hospitality-Data-Analysis/blob/main/OBJECTIVE.pdf)) for more details on requirements.
+   Refer Objective.pdf for more details on requirements.
 
 # Dashboard
 ![image](https://github.com/igglu417/Hospitality-Data-Analysis/assets/54131004/2063667d-acf7-4797-9130-6f1baf50acb7)
