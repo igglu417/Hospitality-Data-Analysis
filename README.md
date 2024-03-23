@@ -38,7 +38,9 @@ Mr. Analyst is the data analyst. He has been briefed about the task in the stake
 			Total Capacity = SUM(fact_aggregated_bookings[capacity])
 	5. Create measure for occupancy percentage and placed on card
 			Occupancy % = CALCULATE(([Total Bookings]/[Total Capacity])*100)
-	6. Create measure to check how many 5 ratings are received by differernt hotels
+	6. Total Successful Bookings = SUM(fact_aggregated_bookings[Successful_bookings])
+ 	7. Total Cancelled Bookings = CALCULATE(COUNTROWS(fact_bookings), fact_bookings[booking_Status] = "Cancelled")  
+	8. Create measure to check how many 5 ratings are received by differernt hotels
 			Top Rated Hotels = CALCULATE(COUNTROWS(fact_bookings),fact_bookings[ratings_given] = 5)
 		
 ## Major Insights
@@ -59,7 +61,7 @@ Mr. Analyst is the data analyst. He has been briefed about the task in the stake
 - Emphasize efforts on promoting and selling luxury category	
 - To increase bookings provide more discounts on weekends and weekdays		
 		
-		
+**Project Contributors**: `Sarika Dixit`, `Ikhlas Mukhtar`
 		
 		
 		
